@@ -1,4 +1,5 @@
 {
-  "PORT": "8000",
-  "mongoURI": "mongodb+srv://Hymnal:Hymnal@cluster0.gkzx9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "PORT" : "8000" ,
+   "mongoURI" :"mongodb+srv://Frank%40admin:Frank@cluster0.mongodb.net/CameroonHymnal?retryWrites=true&w=majority"
 }
+ 

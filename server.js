@@ -1,5 +1,7 @@
+/** @format */
+
 const express = require("express");
-const config = require("config");
+// const config = require("config");
 const TodoDB = require("./config/database");
 
 const app = express();
@@ -10,8 +12,8 @@ app.use("/api/CH/AdminAuth", require("./routes/user"));
 // app.use("/api/CH", require("./routes/login"));
 // app.use("/api/todo", require("./routes/todo"));
 
-const PORT = config.get("PORT");
+const PORT = 8000;
 
 app.listen(PORT, () => {
-  console.log(`server started on PORT ${PORT}`);
+	console.log(`server started on PORT ${PORT}`);
 });
